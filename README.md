@@ -1,2 +1,27 @@
-# PRODIGY_ML_04
-To develop a hand gesture recognition model that can accurately identify and classify different hand gestures from image or video data.
+# Hand Gesture Recognition Using Convolutional Neural Networks
+## Introduction
+Hand gesture recognition is essential for applications in human-computer interaction, sign language interpretation, and gaming. This project aims to develop a Convolutional Neural Network (CNN) to recognize hand gestures from images.
+## Dataset
+We use the LeapGestRecog dataset, which contains images of various hand gestures, organized into directories by gesture type.The data set is from https://www.kaggle.com/gti-upm/leapgestrecog
+## Objectives
+- Develop a CNN model for accurate hand gesture recognition.
+- Achieve high accuracy and generalization across different gestures.
+- Provide a foundation for real-time gesture-based applications.
+## Methodology
+### Data Loading and Preprocessing
+- Loading Data: Load images and labels from the dataset.
+- Preprocessing: Resize images, normalize pixel values, and encode labels.
+### Model Development
+- Model Architecture: Create a CNN with multiple convolutional and pooling layers, followed by dense layers for classification.
+- Compilation: Compile the model with an appropriate loss function and optimizer.
+### Model Training
+- Training: Train the model using the training dataset and validate it with a validation dataset.
+- Evaluation: Evaluate the model's performance on a test dataset.
+### Visualization and Analysis
+- Visualization: Plot training history, including accuracy and loss curves.
+- Predictions: Use the trained model to make predictions on new images.
+## Conclusion
+Hand gesture recognition using CNNs significantly improves human-computer interaction. This project aims to develop a robust model for recognizing hand gestures, providing a basis for various applications.
+
+
+
